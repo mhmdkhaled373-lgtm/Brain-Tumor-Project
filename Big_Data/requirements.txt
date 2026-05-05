@@ -1,0 +1,7 @@
+# Auto-generated requirements.txt
+# Exact library versions used in this project
+pandas==3.0.2
+numpy==2.2.5
+matplotlib==3.10.9
+seaborn==0.13.2
+jupyter==1.0.0
