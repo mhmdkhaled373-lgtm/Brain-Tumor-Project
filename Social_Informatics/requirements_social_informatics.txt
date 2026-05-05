@@ -1,0 +1,11 @@
+# Requirements for Brain Tumor Image Classifier
+# Social Informatics Project
+# Python 3.13.3
+
+numpy==2.2.5
+opencv-python==4.13.0
+scikit-learn==1.6.1
+seaborn==0.13.2
+matplotlib==3.10.9
+Pillow==12.2.0
+joblib==1.5.0
