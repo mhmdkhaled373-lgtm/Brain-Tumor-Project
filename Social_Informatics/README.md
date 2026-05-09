@@ -36,19 +36,19 @@ cell 4
 with open('brain_tumor_classifier_colab.py', 'r') as f:
     code = f.read()
 
-# Replace ALL occurrences of the dataset path
+
 code = code.replace(
     '"brain_tumor_dataset"',
     '"/content/drive/MyDrive/Colab Notebooks/brain_tumor_dataset"'
 )
 
-# Verify the replacement worked
+
 if '/content/drive/MyDrive/Colab Notebooks/brain_tumor_dataset' in code:
     print("✅ Path replaced successfully!")
 else:
     print("❌ Path replacement failed!")
 
-# Run it
+
 exec(code)
             print(f"  📁 {folder}: {count} images")
 else:
